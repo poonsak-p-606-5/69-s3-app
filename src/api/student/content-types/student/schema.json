@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 10,
+      "required": true,
+      "unique": true
+    },
+    "mobile": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 10,
+      "required": true,
+      "unique": true
+    }
+  }
+}
